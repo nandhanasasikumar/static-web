@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # This step downloads your repository files to the runner
+      # Download repository code onto the runner
       - name: Checkout code
         uses: actions/checkout@v4
 
